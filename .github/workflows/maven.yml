@@ -26,7 +26,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build Code
-      working-directory: code
+      working-directory: $GITHUB_WORKSPACE/code
       run: pwd
     - name: ls
       run: ls
