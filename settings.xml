@@ -30,7 +30,7 @@
     <server>
       <id>github</id>
       <username>x-access-token</username>
-      <password>${env.TOKEN}</password>
+      <password>${token}</password>
     </server>
   </servers>
 </settings>
