@@ -114,18 +114,13 @@
         <updatePolicy>interval:15</updatePolicy>
       </snapshots>
     </repository>
-      <repository>
-          <id>github</id>
-          <name>GitHub OWNER Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/hbfernandes/actions-test</url>
-        </repository>
   </repositories>
     
     <distributionManagement>
        <repository>
          <id>github</id>
          <name>GitHub OWNER Apache Maven Packages</name>
-         <url>https://maven.pkg.github.com/hbfernandes/actions-test</url>
+         <url>https://maven.pkg.github.com/hbfernandes</url>
        </repository>
     </distributionManagement>
 </project>
