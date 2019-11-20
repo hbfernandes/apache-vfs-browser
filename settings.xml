@@ -20,7 +20,7 @@
         <repository>
           <id>github</id>
           <name>GitHub OWNER Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/OWNER</url>
+          <url>https://maven.pkg.github.com/hbfernandes</url>
         </repository>
       </repositories>
     </profile>
@@ -29,7 +29,7 @@
   <servers>
     <server>
       <id>github</id>
-      <username>x-access-token</username>
+      <username>hbfernandes</username>
       <password>${token}</password>
     </server>
   </servers>
