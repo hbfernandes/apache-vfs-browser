@@ -128,6 +128,12 @@
          <url>https://maven.pkg.github.com/hbfernandes/actions-test</url>
        </repository>
     </distributionManagement>
-    
+<servers>
+    <server>
+      <id>github</id>
+      <username>hbfernandes</username>
+      <password>${env.TOKEN}</password>
+    </server>
+  </servers>
 
 </project>
